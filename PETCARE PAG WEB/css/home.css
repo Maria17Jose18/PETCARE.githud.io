@@ -1,0 +1,325 @@
+.LOGO img {
+    float: left;
+    position: relative;
+    top: 20px;
+    left: 40px;
+    width: 300px;
+    height: 100px;
+}
+
+@font-face{
+    font-family: "menu";
+    src: url(fuentes/AnyConv.com__RobotoCondensed-Bold.eot);
+    src: url(../fuentes/.com__RobotoCondensed-Bold.woff) format("woff"),
+         url(../fuentes/RobotoCondensed-Bold.ttf) format("truetype"),
+         url(../fuentes/AnyConv.com__RobotoCondensed-Bold.svg) format("svg");
+   }
+
+   @font-face{
+    font-family: "texto_simple";
+    src: url(../fuentes/AnyConv.com__Barlow-Regular.eot);
+    src: url(../fuentes/AnyConv.com__Barlow-Regular.woff) format("woff"),
+         url(../fuentes/Barlow-Regular.ttf) format("truetype"),
+         url(../fuentes/AnyConv.com__Barlow-Regular.svg) format("svg");
+   }
+
+/*float:left;*/
+
+.menú {
+    display: inline-block;
+    position: relative;
+    top: 53px;
+    left: 390px;
+    font-size: 20px;
+    word-spacing: 17px;
+    
+}
+
+a {
+    color: #00B8FF;
+    font-family: "menu"; 
+    text-decoration: none;
+    padding: 8.5px;
+    
+}
+
+a:hover {
+  color: #fff;
+  background-color: #5F02F0 ;
+  border-radius: 10%;
+  box-shadow: 7px 7px 12px #5f5f5f;
+}
+
+#header_home img {
+    width: 101.10%;
+    height: 624px;
+    position: relative;
+    top: 60px;
+    left: -9px;
+    margin-bottom: 0;
+    margin-right: -20px;
+
+}
+
+/*width: 270px; */
+
+#palabras1, #palabras2, #palabras3, #palabras4 {
+    height: 358px;
+    box-shadow: 7px 7px 12px #727171;
+}
+
+/* Probar con la sombra en el hover o para ver normal*/
+
+#palabras1:hover {
+    border-radius: 20px;
+}
+
+#palabras2:hover {
+     border-radius: 20px;
+}
+
+#palabras3:hover {
+    border-radius: 20px;
+}
+
+#palabras4:hover {
+    border-radius: 20px;
+}
+
+/* position: absolute;
+    top: 130%;
+    left: 6.2%;
+     */
+
+.hola {
+    position:relative;
+    top: 172px;
+    left: 81px;
+    word-spacing: 35px;
+    margin-right: 100px;
+        
+    }
+
+.hola {
+    animation-name: caracteristicas ;
+    animation-duration: 5s ;
+    animation-iteration-count: 1 ;
+    animation-direction:alternate ;
+}
+
+@keyframes caracteristicas {
+   0% {opacity: 39%;}
+   50% {opacity: 50%;}
+   70% {opacity: 90% ; transform: translate(5em);}
+   100% {opacity: 100%;}
+
+}
+
+#columnas {
+    column-count: 2;
+    column-gap: 50px;
+
+}
+
+#encabezado {
+    font-family: "menu";
+    position:relative;
+    top: 248px;
+    left: 69px;
+    font-size: 74px;
+    color: #00B8FF;
+
+}
+
+p {
+    position: relative;
+    top: 205px;
+    left: 90px;
+    font-size: 26.5px;
+    font-family: "texto_simple";
+    
+}
+
+
+strong:hover {
+    color: #F0B602;
+}
+
+#Gato_home {
+    width: 552px;
+    height: 552px;
+    position: relative;
+    top: 247px;
+    margin-bottom: 40px;
+    left: 26px; 
+}
+
+#pata_gato {
+    position: relative;
+    top: 50px ;
+    left: 19px ;
+     height: 200px;
+    margin-bottom: -299px;
+}
+
+#pata_gato {
+    animation-name: gato ;
+    animation-duration: 2s ;
+    animation-iteration-count: infinite;
+}
+
+@keyframes gato {
+    0%{transform: translate(0,0px);}
+    25%{transform: translate(50,50px);}
+    50%{transform: translate(0px,50px);}
+    100%{transform: translate(0px,0px);}
+
+}
+
+#pata_perro {
+    position: relative;
+    top:33px ;
+    left:15px ;
+    height:200px;
+    margin-bottom: -299px;
+
+}
+
+#pata_perro {
+    animation-name: perro ;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+}
+
+
+@keyframes perro {
+    0%{transform: translate(60,60px);}
+    25%{transform: translate(0,0px);}
+    50%{transform: translate(0px,0px);}
+    75%{transform: translate(0px,60px);}
+    100%{transform: translate(0px,0px);}
+
+
+}
+
+#perro_home {
+    width: 103.6%;
+    height: 549px;
+    position:relative;
+    top: 278px;
+    left: -39px;
+    margin-right: -790px;
+    z-index: 3;
+
+} 
+
+/* Poner solo el Height,el width sepone en automatico*/
+
+
+#servicios_home  {
+    position:relative;
+    top: -276px;
+    left: 12px;
+    margin-left: 600px ;
+    font-family: "menu";
+    font-size: 50px;
+    color: #fff;
+    margin-right: 85px;
+    margin-bottom: -300px;
+    z-index: 3;
+    
+}
+
+#otros {
+    position:relative;
+    top: -110px;
+    left: 742px ;
+    font-family: "menu";
+    font-size: 69px;
+    color: #fff;
+    margin-right: 799px;
+    z-index: 3;
+    
+}
+
+#subtitulos {
+    font-size: 27px;
+    position:relative;
+    left: 649px ;
+    top: -155px;
+    font-family: "menu";
+    color: #fff;
+    margin-right: 660px;
+    margin-bottom: -210px;
+    z-index: 3;
+
+
+}
+
+#listas {
+    margin-top: 40px;
+}
+
+li{
+    font-family:"texto_simple";
+    font-size: 29px;
+    color: #fff;
+    position: relative;
+    left: 699px;
+    top: 44px;
+    margin-top: 11px;
+    margin-right: 700px;
+    margin-bottom: -12px;
+    z-index: 3;
+
+}
+    
+#instagram img, #facebook img, #youtube img {
+    position: relative;
+    top: 25px;
+   
+}
+
+#instagram img {
+    float: left;
+    height: 40px;
+    left: 597px;
+
+}
+
+#facebook img {
+    float: left;
+    height: 40px;
+    left: 602px;
+
+}
+
+#youtube img {
+    float: left;
+    height: 40px;
+    left: 607px;
+
+}
+
+#final {
+    position: relative;
+    top: 78px;
+    left: 402px;
+    margin-right: 600px;
+    margin-top: 8px;
+    font-family: "texto_simple";
+    color: #fff;
+    word-spacing: 1px;
+}
+
+.redes_sociales {
+    padding-bottom: 90px;
+    position: relative;
+    top: 111px;
+    left: -9px;
+    background-color: #00B8FF;
+    background-size: 99%;
+    margin-right: -17px;
+
+}

@@ -1,0 +1,149 @@
+* {
+    background-color: #5F02F0;
+}
+
+@font-face{
+    font-family: "menu";
+    src: url(fuentes/AnyConv.com__RobotoCondensed-Bold.eot);
+    src: url(../fuentes/.com__RobotoCondensed-Bold.woff) format("woff"),
+         url(../fuentes/RobotoCondensed-Bold.ttf) format("truetype"),
+         url(../fuentes/AnyConv.com__RobotoCondensed-Bold.svg) format("svg");
+   }
+
+   @font-face{
+    font-family: "texto_simple";
+    src: url(../fuentes/AnyConv.com__Barlow-Regular.eot);
+    src: url(../fuentes/AnyConv.com__Barlow-Regular.woff) format("woff"),
+         url(../fuentes/Barlow-Regular.ttf) format("truetype"),
+         url(../fuentes/AnyConv.com__Barlow-Regular.svg) format("svg");
+   }
+
+#flecha {
+    position: relative;
+    top: -10px ;
+    left: 58px ;
+    height: 100px;
+}
+
+.LOGO {
+    position: relative;
+    top: 6px;
+    left: 829px;
+    height: 160px;
+}
+
+h1 {
+    font-family: "menu";
+    font-size: 70px;
+    position: relative;
+    top: -23px ;
+    left: 70px ;
+    margin-right: 200px;
+    color: #fff;
+}
+
+p {
+  font-family: "texto_simple";
+  font-size:30px ;
+  color: #fff;
+  position: relative;  
+  top: -65px ;
+  left:  70px ;
+  margin-right: 200px;
+  margin-bottom: -400px;
+}
+
+#perro_ilustracion {
+    height: 500px;
+    position: relative;
+    top: -20px;
+    left: 790px;
+    margin-bottom: -400px;
+}
+
+#hueso,#hueso1 {
+    height: 150px;
+    position: relative;
+    top:-440px ;
+    left:150px;
+}
+
+#hueso {
+    animation-name: hueso ;
+    animation-duration: 2s ;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes hueso {
+    0%{transform: translate(0,0px);}
+    25%{transform: translate(50,50px);}
+    50%{transform: translate(0px,50px);}
+    100%{transform: translate(0px,0px);}
+}
+
+#hueso1 {
+    animation-name: hueso1 ;
+    animation-duration: 2s ;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes hueso1 {
+    0%{transform: translate(70,70px);}
+    25%{transform: translate(0,0px);}
+    50%{transform: translate(0px,70px);}
+    100%{transform: translate(0px,0px);}
+    
+}
+
+#instagram img, #facebook img, #youtube img {
+    position: relative;
+    top: 25px;
+    background-color: #00B8FF;
+
+   
+}
+
+#instagram img {
+    float: left;
+    height: 40px;
+    left: 597px;
+
+}
+
+#facebook img {
+    float: left;
+    height: 40px;
+    left: 602px;
+
+}
+
+#youtube img {
+    float: left;
+    height: 40px;
+    left: 607px;
+
+}
+
+#final {
+    position: relative;
+    top: 78px;
+    left: 402px;
+    margin-right: 600px;
+    font-family: "texto_simple";
+    color: #fff;
+    background-color: #00B8FF;
+    word-spacing: 1px;
+}
+
+.redes_sociales {
+    padding-bottom: 100px;
+    position: relative;
+    top: 191px;
+    left: -9px;
+    background-color: #00B8FF;
+    background-size: 99%;
+    margin-right: -17px;
+
+}

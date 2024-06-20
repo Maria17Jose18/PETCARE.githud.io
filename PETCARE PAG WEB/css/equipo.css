@@ -1,0 +1,355 @@
+#LOGO img {
+    float: left;
+    width: 300px;
+    height: 100px;
+    position: relative;
+    top: 20px;
+    left: 40px;
+  
+}
+
+@font-face{
+    font-family: "menu";
+    src: url(fuentes/AnyConv.com__RobotoCondensed-Bold.eot);
+    src: url(../fuentes/.com__RobotoCondensed-Bold.woff) format("woff"),
+         url(../fuentes/RobotoCondensed-Bold.ttf) format("truetype"),
+         url(../fuentes/AnyConv.com__RobotoCondensed-Bold.svg) format("svg");
+   }
+
+   @font-face{
+    font-family: "texto_simple";
+    src: url(../fuentes/AnyConv.com__Barlow-Regular.eot);
+    src: url(../fuentes/AnyConv.com__Barlow-Regular.woff) format("woff"),
+         url(../fuentes/Barlow-Regular.ttf) format("truetype"),
+         url(../fuentes/AnyConv.com__Barlow-Regular.svg) format("svg");
+   }
+
+/*float:left;*/
+
+.menú {
+    display: inline-block;
+    position: relative;
+    top: 53px;
+    left: 390px;
+    font-size: 20px;
+    word-spacing: 17px;
+    
+}
+
+a {
+    color: #00B8FF;
+    font-family: "menu"; 
+    text-decoration: none;
+    padding: 8.5px;
+    
+}
+
+a:hover {
+  color: #fff;
+  background-color: #5F02F0 ;
+  border-radius: 10%;
+  box-shadow: 7px 7px 12px #5f5f5f;
+}
+
+#header_equipo img {
+    width: 101.10%;
+    height: 646px;
+    position: relative;
+    top: 60px;
+    margin-left: -9px;
+    margin-bottom: 0;
+
+}
+
+#doctora img {
+    position: relative;
+    top: 170px;
+    left: 105px;
+    height: 598px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 12px #818181;  
+
+
+}
+
+/*column-gap: 50px;*/
+
+/* usar como segunda opción:
+#columnas {
+    column-count: 2;
+    column-gap: 50px;
+    
+}*/
+
+#medicos_veterinarios {
+    position: relative;
+    top: -487px;
+    left: 610px;
+    font-family: "menu";
+    font-size: 83px;
+    color: #F0B602;
+    margin-right: 620px;
+    margin-bottom: -600px;
+
+
+}
+
+p {
+    position: relative;
+    top: 99px;
+    left: 613px; 
+    font-size: 29px ;
+    font-family: "texto_simple";
+    margin-right: 700px;
+    margin-bottom: 0 ;
+
+}
+
+
+strong {
+    font-family: "menu";
+}
+
+#descripcion {
+    position: relative;
+    top: 93px;
+}
+
+#doctora {
+    animation-name: h ;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes h {
+   0%{ opacity: 20%; }
+   50% { opacity: 70%; }
+   100% {opacity: 100%; }
+
+}
+
+#cirujano img {
+    position: relative;
+    top: 169px;
+    left: 790px;
+    height: 600px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 12px #818181;  
+
+}
+
+#cirujanos_veterinarios {
+    position: relative;
+    top: -504px;
+    left: 105px;
+    margin-right: 700px;
+    font-family: "menu";
+    font-size: 74px;
+    color: #F0B602;
+    margin-bottom: -800px;
+
+
+}
+
+#texto_cirujano  {
+    position: relative;
+    top: 283px;
+    left:105px ;
+    font-size: 29px ;
+    font-family: "texto_simple";
+    margin-right: 700px;
+    margin-bottom:0;
+}
+
+#doc_julio {
+    position: relative;
+    top: 279px;
+    left:105px ;
+
+
+}
+
+#doc_julio_dos {
+    position: relative;
+    top:272px ;
+    left:105px ;
+
+}
+
+#cirujano {
+    animation-name: e ;
+    animation-duration: 8s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes e {
+   0%{ opacity: 20%; }
+   50% { opacity: 70%; }
+   100% {opacity: 100%;}
+
+}
+
+
+#administrador img {
+    position: relative;
+    top: 179px;
+    left: 105px;
+    height: 598px;
+    border-radius: 10px;  
+    box-shadow: 7px 7px 12px #818181;  
+}
+
+#administrador_cliente {
+position: relative;
+top: -437px;
+left: 610px;
+font-family: "menu";
+font-size: 65px;
+color: #F0B602;
+margin-right: 620px;
+margin-bottom: -600px;
+
+}
+
+#texto_administrador {
+    position: relative;
+    top: 154px;
+    left: 610px;
+    margin-bottom: -800px;
+}
+    
+#administrador_perfil {
+    position: relative;
+    top: 957px;
+    left: 610px;
+}
+
+#administrador_perfil_dos {
+    position: relative;
+    top: 950px; ;
+    left: 610px; ;
+}
+
+#administrador {
+    animation-name: o ;
+    animation-duration: 12s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes o {
+   0%{ opacity: 20%; }
+   50% { opacity: 60%; }
+   100% {opacity: 100%;}
+
+}
+
+#vendedora img {
+    position: relative;
+    top: 189px;
+    left: 790px;
+    height: 600px;
+    border-radius: 10px;
+    margin-bottom: -200px;
+    box-shadow: 7px 7px 12px #818181;  
+
+    
+}
+
+#vendedora_descripcion {
+    position: relative;
+    top: -223px;
+    left: 105px;
+    margin-right: 700px;
+    font-family: "menu";
+    font-size: 65px;
+    color: #F0B602;
+    margin-bottom: -600px;
+
+}
+
+#texto_vendedora {
+    position: relative;
+    top: 367px;
+    left:105px ;
+    font-size: 29px ;
+    font-family: "texto_simple";
+    margin-right: 700px;
+    margin-bottom:none;
+}
+
+#vendedora_nombre {
+    position: relative;
+    top:364px ;
+    left:105px ;
+}
+
+#descripcion_vend {
+    position: relative;
+    top:354px ;
+    left:105px ;
+}
+
+#vendedora {
+    animation-name: i ;
+    animation-duration: 16s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes i {
+   0%{ opacity: 20%; }
+   50% { opacity: 60%; }
+   100% {opacity: 100%;}
+
+}
+
+#instagram img, #facebook img, #youtube img {
+    position: relative;
+    top: 25px;
+   
+}
+
+#instagram img {
+    float: left;
+    height: 40px;
+    left: 595px;
+
+}
+
+#facebook img {
+    float: left;
+    height: 40px;
+    left: 600px;
+
+}
+
+#youtube img {
+    float: left;
+    height: 40px;
+    left: 605px;
+
+}
+
+.redes_sociales {
+    padding-bottom: 100px;
+    position: relative;
+    top: 395px;
+    left: -9px;
+    background-color: #00B8FF;
+    background-size: 101%;
+    margin-right: -17px;
+
+}
+
+#final {
+    position: relative;
+    top: 78px;
+    left: 400px;
+    margin-right: 600px;
+    margin-top: 15px;
+    font-family: "texto_simple";
+    color: #fff;
+    word-spacing: 1px;
+}
+
+/*terminado: agregar efectos*/
+
